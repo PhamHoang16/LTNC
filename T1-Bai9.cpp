@@ -6,13 +6,7 @@ int main(){
     int a, b, c;
     double p, s;
     cin >> a >> b >> c;
-    //test case truong hop nay sai
-
-    if(a==2&&b==3&&c==4) {
-        cout<<"2.91";
-        return 0;
-    }
-    else if(a >= b+c || b >= a+c || c >= a+b){
+    if(a >= b+c || b >= a+c || c >= a+b){
         cout << "invalid";
     }
     else{
